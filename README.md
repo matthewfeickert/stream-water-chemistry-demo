@@ -1,2 +1,3 @@
-# stream-water-chemistry-demo
-Streamlit demo for stream water chemistry
+# Stream Water Chemistry Demo
+
+[Streamlit](https://streamlit.io/) demo for stream water chemistry
