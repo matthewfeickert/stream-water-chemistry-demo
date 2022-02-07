@@ -43,8 +43,7 @@ def app():
                     "Substrate": [substrate],
                 }
                 df_inputs = pd.DataFrame(inputs)
-                # st.write("slider", slider_val, "checkbox", checkbox_val)
-                df = df.concat(df_inputs, ignore_index=True)
-                st.dataframe(df)
+                df = pd.concat([df, df_inputs])
+            st.dataframe(df)
 
-    # st.dataframe(df)
+    st.dataframe(df)
